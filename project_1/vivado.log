@@ -1,0 +1,1334 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Nov 14 22:57:49 2024
+# Process ID: 267785
+# Current directory: /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1
+# Command line: vivado project_1.xpr
+# Log file: /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/vivado.log
+# Journal file: /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/vivado.jou
+# Running On        :binhkieudo-ASUS
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 20.04.6 LTS
+# Processor Detail  :AMD Ryzen 7 4800H with Radeon Graphics
+# CPU Frequency     :1400.000 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :33036 MB
+# Swap memory       :98302 MB
+# Total Virtual     :131339 MB
+# Available Virtual :117964 MB
+#-----------------------------------------------------------
+start_gui
+open_project project_1.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /cad/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /cad/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /cad/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /cad/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /cad/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /cad/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /cad/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /cad/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /cad/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/cad/Xilinx/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:10 . Memory (MB): peak = 7991.496 ; gain = 455.887 ; free physical = 5739 ; free virtual = 111461
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property top matmul64 [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/utils_1/imports/synth_1/ts_pe.dcp with file /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.runs/synth_1/mac.dcp
+launch_runs synth_1 -jobs 16
+[Thu Nov 14 22:59:46 2024] Launched synth_1...
+Run output will be captured here: /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+[Thu Nov 14 23:01:19 2024] Launched synth_1...
+Run output will be captured here: /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/utils_1/imports/synth_1/ts_pe.dcp with file /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.runs/synth_1/matmul64.dcp
+launch_runs synth_1 -jobs 16
+[Thu Nov 14 23:03:31 2024] Launched synth_1...
+Run output will be captured here: /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/utils_1/imports/synth_1/ts_pe.dcp with file /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.runs/synth_1/matmul64.dcp
+launch_runs synth_1 -jobs 16
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+[Thu Nov 14 23:04:57 2024] Launched synth_1...
+Run output will be captured here: /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/utils_1/imports/synth_1/ts_pe.dcp with file /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.runs/synth_1/matmul64.dcp
+launch_runs synth_1 -jobs 16
+[Thu Nov 14 23:08:07 2024] Launched synth_1...
+Run output will be captured here: /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xcvu9p-flga2104-2L-e
+INFO: [Device 21-403] Loading part xcvu9p-flga2104-2L-e
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9270.867 ; gain = 0.000 ; free physical = 4622 ; free virtual = 110349
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9643.062 ; gain = 0.000 ; free physical = 4248 ; free virtual = 109975
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:30 ; elapsed = 00:00:18 . Memory (MB): peak = 10073.453 ; gain = 1821.016 ; free physical = 3719 ; free virtual = 109474
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xcvu9p-flga2104-2L-e
+Top: matmul64
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 272035
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 10256.820 ; gain = 0.000 ; free physical = 3292 ; free virtual = 109023
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'matmul64' [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mac' [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:3]
+	Parameter SIZEIN bound to: 8 - type: integer 
+	Parameter SIZEOUT bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mac' (0#1) [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'matmul64' (0#1) [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 10256.820 ; gain = 0.000 ; free physical = 3291 ; free virtual = 109024
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 10256.820 ; gain = 0.000 ; free physical = 3291 ; free virtual = 109024
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 10256.820 ; gain = 0.000 ; free physical = 3291 ; free virtual = 109024
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.03 . Memory (MB): peak = 10256.820 ; gain = 0.000 ; free physical = 3582 ; free virtual = 109314
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 10256.820 ; gain = 0.000 ; free physical = 3566 ; free virtual = 109299
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 10256.820 ; gain = 0.000 ; free physical = 3489 ; free virtual = 109257
+9 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 10256.820 ; gain = 0.000 ; free physical = 3489 ; free virtual = 109257
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 3594.521; main = 3594.521; forked = 0.000
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 10228.227; main = 10228.227; forked = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/utils_1/imports/synth_1/ts_pe.dcp with file /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.runs/synth_1/matmul64.dcp
+launch_runs synth_1 -jobs 16
+[Thu Nov 14 23:15:59 2024] Launched synth_1...
+Run output will be captured here: /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+refresh_design
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 10271.199 ; gain = 0.000 ; free physical = 3151 ; free virtual = 108896
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-2716] syntax error near ')' [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:42]
+INFO: [Synth 8-9084] Verilog file '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v' ignored due to errors
+ERROR: [Synth 8-439] module 'matmul64' not found
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 10271.199 ; gain = 0.000 ; free physical = 3148 ; free virtual = 108893
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+refresh_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 10271.199 ; gain = 0.000 ; free physical = 3146 ; free virtual = 108891
+ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+close_design
+set_property source_mgmt_mode DisplayOnly [current_project]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/utils_1/imports/synth_1/ts_pe.dcp with file /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.runs/synth_1/matmul64.dcp
+launch_runs synth_1 -jobs 16
+[Thu Nov 14 23:20:01 2024] Launched synth_1...
+Run output will be captured here: /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/utils_1/imports/synth_1/ts_pe.dcp with file /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.runs/synth_1/matmul64.dcp
+launch_runs synth_1 -jobs 16
+[Thu Nov 14 23:21:40 2024] Launched synth_1...
+Run output will be captured here: /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/utils_1/imports/synth_1/ts_pe.dcp with file /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.runs/synth_1/matmul64.dcp
+launch_runs synth_1 -jobs 16
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+[Thu Nov 14 23:23:48 2024] Launched synth_1...
+Run output will be captured here: /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xcvu9p-flga2104-2L-e
+Netlist sorting complete. Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.06 . Memory (MB): peak = 10327.215 ; gain = 0.000 ; free physical = 3443 ; free virtual = 109182
+INFO: [Netlist 29-17] Analyzing 833 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 10333.254 ; gain = 0.000 ; free physical = 3454 ; free virtual = 109193
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 153 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 153 instances
+
+open_run: Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 10355.270 ; gain = 28.055 ; free physical = 3338 ; free virtual = 109104
+report_utilization -name utilization_1
+WARNING: [Device 21-9073] RSS factor Speedmodel not found for intent code NODE_GLOBAL_VDISTR
+WARNING: [Device 21-9073] RSS factor Speedmodel not found for intent code NODE_GLOBAL_VROUTE
+WARNING: [Device 21-9073] RSS factor Speedmodel not found for intent code NODE_GLOBAL_HDISTR
+WARNING: [Device 21-9073] RSS factor Speedmodel not found for intent code NODE_GLOBAL_HROUTE
+WARNING: [Device 21-9073] RSS factor Speedmodel not found for intent code NODE_GLOBAL_BUFG
+WARNING: [Device 21-9073] RSS factor Speedmodel not found for intent code NODE_GLOBAL_LEAF
+close_design
+file mkdir /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv w ]
+add_files -fileset sim_1 /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+set_property top tb_mat [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/cad/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_mat' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj tb_mat_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mac
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/ts_pe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ts_pe
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/ts_pe2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ts_pe2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matmul64
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mat
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /cad/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mac
+Compiling module xil_defaultlib.matmul64_default
+Compiling module xil_defaultlib.tb_mat
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_mat_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_mat_behav -key {Behavioral:sim_1:Functional:tb_mat} -tclbatch {tb_mat.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_mat.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_mat_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 11736.375 ; gain = 25.379 ; free physical = 3492 ; free virtual = 109438
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[0].gen_col[0].mac_unit }} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[0].gen_col[0].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[0].gen_col[0].mac_unit /b_reg}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[1].gen_col[0].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[1].gen_col[0].mac_unit /b_reg}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[2].gen_col[0].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[2].gen_col[0].mac_unit /b_reg}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[3].gen_col[0].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[3].gen_col[0].mac_unit /b_reg}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[4].gen_col[0].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[4].gen_col[0].mac_unit /b_reg}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[5].gen_col[0].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[5].gen_col[0].mac_unit /b_reg}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[6].gen_col[0].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[6].gen_col[0].mac_unit /b_reg}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[7].gen_col[0].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[7].gen_col[0].mac_unit /b_reg}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/cad/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_mat' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj tb_mat_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mac
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/ts_pe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ts_pe
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/ts_pe2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ts_pe2
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /cad/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mac
+Compiling module xil_defaultlib.matmul64_default
+Compiling module xil_defaultlib.tb_mat
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_mat_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 11736.375 ; gain = 0.000 ; free physical = 3507 ; free virtual = 109456
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[0].gen_col[1].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[0].gen_col[1].mac_unit /b_reg}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj tb_mat_vlog.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /cad/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 11736.375 ; gain = 0.000 ; free physical = 3496 ; free virtual = 109445
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj tb_mat_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matmul64
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /cad/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mac
+Compiling module xil_defaultlib.matmul64_default
+Compiling module xil_defaultlib.tb_mat
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_mat_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 11747.422 ; gain = 0.000 ; free physical = 3467 ; free virtual = 109426
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[0].gen_col[0].mac_unit /mult_reg}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[1].gen_col[0].mac_unit /mult_reg}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[2].gen_col[0].mac_unit /mult_reg}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[3].gen_col[0].mac_unit /mult_reg}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[4].gen_col[0].mac_unit }} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[4].gen_col[0].mac_unit /mult_reg}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[5].gen_col[0].mac_unit /mult_reg}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[6].gen_col[0].mac_unit /mult_reg}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[7].gen_col[0].mac_unit /mult_reg}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj tb_mat_vlog.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /cad/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 11747.422 ; gain = 0.000 ; free physical = 2267 ; free virtual = 108299
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_mat/udt/\gen_row[0].gen_col[1].mac_unit /accum_in}} {{/tb_mat/udt/\gen_row[0].gen_col[1].mac_unit /accum_out}} {{/tb_mat/udt/\gen_row[0].gen_col[1].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[0].gen_col[1].mac_unit /b_reg}} {{/tb_mat/udt/\gen_row[0].gen_col[1].mac_unit /mult_reg}} {{/tb_mat/udt/\gen_row[0].gen_col[1].mac_unit /adder_out}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj tb_mat_vlog.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /cad/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 11747.422 ; gain = 0.000 ; free physical = 2086 ; free virtual = 108130
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+xvlog --incr --relax -L uvm -prj tb_mat_vlog.prj
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mat
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /cad/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mac
+Compiling module xil_defaultlib.matmul64_default
+Compiling module xil_defaultlib.tb_mat
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_mat_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 11747.422 ; gain = 0.000 ; free physical = 1908 ; free virtual = 107991
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+xvlog --incr --relax -L uvm -prj tb_mat_vlog.prj
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mat
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /cad/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mac
+Compiling module xil_defaultlib.matmul64_default
+Compiling module xil_defaultlib.tb_mat
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_mat_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 11762.418 ; gain = 0.000 ; free physical = 2313 ; free virtual = 108417
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj tb_mat_vlog.prj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mat
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /cad/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mac
+Compiling module xil_defaultlib.matmul64_default
+Compiling module xil_defaultlib.tb_mat
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_mat_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 11762.418 ; gain = 0.000 ; free physical = 336 ; free virtual = 106237
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+xvlog --incr --relax -L uvm -prj tb_mat_vlog.prj
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mat
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /cad/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mac
+Compiling module xil_defaultlib.matmul64_default
+Compiling module xil_defaultlib.tb_mat
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_mat_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 11765.418 ; gain = 0.000 ; free physical = 347 ; free virtual = 106247
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj tb_mat_vlog.prj
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mat
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /cad/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mac
+Compiling module xil_defaultlib.matmul64_default
+Compiling module xil_defaultlib.tb_mat
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_mat_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 11765.418 ; gain = 0.000 ; free physical = 341 ; free virtual = 106234
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj tb_mat_vlog.prj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mat
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /cad/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mac
+Compiling module xil_defaultlib.matmul64_default
+Compiling module xil_defaultlib.tb_mat
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_mat_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 11768.410 ; gain = 2.000 ; free physical = 328 ; free virtual = 106229
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj tb_mat_vlog.prj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mat
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /cad/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mac
+Compiling module xil_defaultlib.matmul64_default
+Compiling module xil_defaultlib.tb_mat
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_mat_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 11789.457 ; gain = 0.000 ; free physical = 1462 ; free virtual = 106864
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+relaunch_sim
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj tb_mat_vlog.prj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mat
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /cad/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mac
+Compiling module xil_defaultlib.matmul64_default
+Compiling module xil_defaultlib.tb_mat
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_mat_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 11789.457 ; gain = 0.000 ; free physical = 1288 ; free virtual = 106701
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj tb_mat_vlog.prj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mat
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /cad/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mac
+Compiling module xil_defaultlib.matmul64_default
+Compiling module xil_defaultlib.tb_mat
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_mat_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 11789.457 ; gain = 0.000 ; free physical = 1361 ; free virtual = 106774
+relaunch_sim
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv:]
+xvlog --incr --relax -L uvm -prj tb_mat_vlog.prj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mat
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_mat'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /cad/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mat_behav xil_defaultlib.tb_mat xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mac
+Compiling module xil_defaultlib.matmul64_default
+Compiling module xil_defaultlib.tb_mat
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_mat_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 11789.457 ; gain = 0.000 ; free physical = 1364 ; free virtual = 106781

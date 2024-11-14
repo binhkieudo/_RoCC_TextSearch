@@ -1,0 +1,137 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Nov 14 22:57:49 2024
+# Process ID: 267785
+# Current directory: /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1
+# Command line: vivado project_1.xpr
+# Log file: /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/vivado.log
+# Journal file: /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/vivado.jou
+# Running On        :binhkieudo-ASUS
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 20.04.6 LTS
+# Processor Detail  :AMD Ryzen 7 4800H with Radeon Graphics
+# CPU Frequency     :1400.000 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :33036 MB
+# Swap memory       :98302 MB
+# Total Virtual     :131339 MB
+# Available Virtual :117964 MB
+#-----------------------------------------------------------
+start_gui
+open_project project_1.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top matmul64 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+refresh_design
+update_compile_order -fileset sources_1
+close_design
+set_property source_mgmt_mode DisplayOnly [current_project]
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+report_utilization -name utilization_1
+close_design
+file mkdir /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv w ]
+add_files -fileset sim_1 /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_mat [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+source tb_mat.tcl
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[0].gen_col[0].mac_unit }} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[0].gen_col[0].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[0].gen_col[0].mac_unit /b_reg}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[1].gen_col[0].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[1].gen_col[0].mac_unit /b_reg}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[2].gen_col[0].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[2].gen_col[0].mac_unit /b_reg}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[3].gen_col[0].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[3].gen_col[0].mac_unit /b_reg}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[4].gen_col[0].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[4].gen_col[0].mac_unit /b_reg}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[5].gen_col[0].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[5].gen_col[0].mac_unit /b_reg}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[6].gen_col[0].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[6].gen_col[0].mac_unit /b_reg}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[7].gen_col[0].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[7].gen_col[0].mac_unit /b_reg}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[0].gen_col[1].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[0].gen_col[1].mac_unit /b_reg}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[0].gen_col[0].mac_unit /mult_reg}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[1].gen_col[0].mac_unit /mult_reg}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[2].gen_col[0].mac_unit /mult_reg}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[3].gen_col[0].mac_unit /mult_reg}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[4].gen_col[0].mac_unit }} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[4].gen_col[0].mac_unit /mult_reg}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[5].gen_col[0].mac_unit /mult_reg}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[6].gen_col[0].mac_unit /mult_reg}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[7].gen_col[0].mac_unit /mult_reg}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/tb_mat/udt/\gen_row[0].gen_col[1].mac_unit /accum_in}} {{/tb_mat/udt/\gen_row[0].gen_col[1].mac_unit /accum_out}} {{/tb_mat/udt/\gen_row[0].gen_col[1].mac_unit /a_reg}} {{/tb_mat/udt/\gen_row[0].gen_col[1].mac_unit /b_reg}} {{/tb_mat/udt/\gen_row[0].gen_col[1].mac_unit /mult_reg}} {{/tb_mat/udt/\gen_row[0].gen_col[1].mac_unit /adder_out}} 
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim

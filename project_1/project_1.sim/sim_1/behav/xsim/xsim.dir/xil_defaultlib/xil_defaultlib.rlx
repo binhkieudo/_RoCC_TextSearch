@@ -1,0 +1,11 @@
+0.7
+2020.2
+May 22 2024
+18:54:44
+/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,uvm,,,,,,
+/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sim_1/new/tb_mat.sv,1731609558,systemVerilog,,,,tb_mat,,uvm,,,,,,
+/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/mac.v,1731593094,verilog,,/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/ts_pe.v,,mac,,uvm,,,,,,
+/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v,1731601953,verilog,,,,matmul64,,uvm,,,,,,
+/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/tb.v,1731572227,systemVerilog,,,,tb,,uvm,,,,,,
+/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/ts_pe.v,1731570722,verilog,,/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/ts_pe2.v,,ts_pe,,uvm,,,,,,
+/home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/ts_pe2.v,1731572718,verilog,,,,ts_pe2,,uvm,,,,,,
