@@ -59,10 +59,7 @@ OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param power.BramSDPPropagationFix 1
 set_param power.enableCarry8RouteBelPower 1
 set_param power.enableUnconnectedCarry8PinPower 1
-set_param checkpoint.writeSynthRtdsInDcp 1
 set_param power.enableLutRouteBelPower 1
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xcvu9p-flga2104-2L-e
 
@@ -84,6 +81,7 @@ read_verilog -library xil_defaultlib {
   /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/ts_pe.v
   /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/ts_pe2.v
   /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/matmul64.v
+  /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/sources_1/new/pipeline.v
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -94,6 +92,9 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
+read_xdc /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/constrs_1/new/constr.xdc
+set_property used_in_implementation false [get_files /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/constrs_1/new/constr.xdc]
+
 set_param ips.enableIPCacheLiteLoad 1
 
 read_checkpoint -auto_incremental -incremental /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.srcs/utils_1/imports/synth_1/ts_pe.dcp

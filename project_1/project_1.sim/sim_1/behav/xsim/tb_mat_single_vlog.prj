@@ -9,9 +9,11 @@ sv xil_defaultlib  \
 
 verilog xil_defaultlib  \
 "../../../../project_1.srcs/sources_1/new/matmul64.v" \
+"../../../../project_1.srcs/sources_1/new/pipeline.v" \
 
 sv xil_defaultlib  \
 "../../../../project_1.srcs/sim_1/new/tb_mat.sv" \
+"../../../../project_1.srcs/sim_1/new/tb_mat_single.sv" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

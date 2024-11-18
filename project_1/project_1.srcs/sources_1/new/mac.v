@@ -8,6 +8,7 @@ module mac# (
     input signed  [SIZEIN-1:0]  a, b,
     input signed  [SIZEIN-1:0]  b_in,  
     output signed [SIZEIN-1:0]  b_out,
+    input signed  [SIZEOUT-1:0] mult_in,
     input signed  [SIZEOUT-1:0] accum_in,
     output signed [SIZEOUT-1:0] accum_out
 );
@@ -22,9 +23,10 @@ module mac# (
         if (load) begin
             a_reg <= a;
             b_reg <= b;
+            mult_reg <= mult_in;
         end
         else if (preload) b_reg <= b_in;
-     
+        
         if (en) begin
             mult_reg <= a_reg * b_reg;
 

@@ -3,8 +3,8 @@
 # SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Thu Nov 14 23:23:51 2024
-# Process ID: 275702
+# Start of session at: Mon Nov 18 02:27:31 2024
+# Process ID: 643782
 # Current directory: /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.runs/synth_1
 # Command line: vivado -log matmul64.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source matmul64.tcl
 # Log file: /home/binhkieudo/Workspace/PhDThesis/_RoCC_TextSearch/project_1/project_1.runs/synth_1/matmul64.vds
@@ -13,12 +13,12 @@
 # Platform          :Ubuntu
 # Operating System  :Ubuntu 20.04.6 LTS
 # Processor Detail  :AMD Ryzen 7 4800H with Radeon Graphics
-# CPU Frequency     :2396.718 MHz
+# CPU Frequency     :1400.000 MHz
 # CPU Physical cores:8
 # CPU Logical cores :16
 # Host memory       :33036 MB
 # Swap memory       :98302 MB
 # Total Virtual     :131339 MB
-# Available Virtual :114385 MB
+# Available Virtual :117936 MB
 #-----------------------------------------------------------
 source matmul64.tcl -notrace
